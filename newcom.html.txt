@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadísticas de Jugador</title>
+    <style>
+        .recuadro {
+            background-color: lightblue;
+            border: 2px solid navy;
+            border-radius: 10px;
+            padding: 20px;
+            width: 80%;
+            margin: 20px auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid navy;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: skyblue;
+            color: navy;
+        }
+    </style>
+</head>
+<body>
+    <div class="recuadro">
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Saques</th>
+                <th>Recepción</th>
+                <th>Aciertos</th>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Nombre del jugador"></td>
+                <td><input type="number" min="0" value="0"></td>
+                <td><input type="number" min="0" value="0"></td>
+                <td><input type="number" min="0" value="0"></td>
+            </tr>
+            <!-- Puedes agregar más filas copiando la estructura anterior -->
+        </table>
+    </div>
+</body>
+</html>
