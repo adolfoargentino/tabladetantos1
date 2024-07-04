@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planilla de Torneo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+            background: linear-gradient(to bottom, #b3e0ff, #0099ff);
+            color: #000;
+        }
+        th {
+            background-color: #0077b6;
+            color: #fff;
+        }
+        .aciertos {
+            background-color: #0077b6;
+            color: #fff;
+        }
+        .errores {
+            background-color: #ff3333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Planilla de Torneo</h1>
+    <table>
+        <tr>
+            <th colspan="7">Día: ______________ Torneo: ______________ Equipo: ______________</th>
+        </tr>
+        <tr>
+            <th>Jugador</th>
+            <th>Saque</th>
+            <th>Atrapada</th>
+            <th>Pase</th>
+            <th>Tiros</th>
+            <th>Tantos</th>
+            <th>Errados</th>
+        </tr>
+        <!-- Aquí se pueden agregar más filas -->
+    </table>
+    
+    <p>Estadísticas:</p>
+    <p>Aciertos: <span class="aciertos">0</span></p>
+    <p>Errores: <span class="errores">0</span></p>
+    <p>Pases: ______________ Atrapadas: ______________</p>
+    
+    <p>Número de Hoja: ______________</p>
+    
+    <button onclick="window.print()">Guardar e Imprimir</button>
+</body>
+</html>
